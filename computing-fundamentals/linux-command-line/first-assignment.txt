@@ -1,0 +1,18 @@
+Questions:
+1. What is an operating system? 
+2. Describe what an operating system is responsible for.
+3. What is the world's most popular operating system? 
+4. What are the top desktop operating systems?
+
+Answers:
+1. An operating system is system software that manages computer hardware and software resources, and provides common sevices for computer programs. An operating system consists of kernel space and user space components, which typically consist of the kernel, drivers, the shell, etc. The operating system offers interfaces the user with the system, allowing the user to conveniently interact with the system, intead of having to interact directly with hardware.
+2. An operating system is responsible for all the operations of a computer - including, but not limited to, disk management, operation of peripherals, installation of drivers for these peripherals, and requiring and managing input.
+3. The most popular operating system depends on your definition of an operating system. Windows is the world's most popular operating system on the desktop. On mobile, it's android, and on the server it's linux.
+4. Windows and macOS. 
+
+Resources: 
+1. https://en.wikipedia.org/wiki/Operating_system#components
+2. https://www.statista.com/statistics/218089/global-market-share-of-windows-7/
+
+Feedback: 
+1. The assignment was pretty simple. Slightly confused by the template though. Am I supposed to include the questions in my assignment too? Including them here just in case.

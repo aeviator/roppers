@@ -1,0 +1,66 @@
+Questions:
+1. In your own words, explain what the command 'echo' does.
+2. Explain the difference between using '>' and using '>>' for output redirection.
+3. Explain the concept of '..' in the directory system.
+4. Describe what the command 'rm' does.
+
+Answers:
+1. The command 'echo' displays a the given arguments as a line of text in the shell.
+2. When redirecting output, '>' redirects output to a new file. If a file with the same name exists, it will be overwritten. For appending redirected output to an existing file use '>>'. 
+3. In the unix filesystem, every directory has at least two hidden links. One of them is '.', and the other is '..', which links to the parent (sub)directory of the current working directory. '..' may be used in conjunction with other commands, for example the 'cd' command, 'cd ..' navigates to the parent (sub)directory of the current directory.
+4. The 'rm' command may be used in order to remove a file. Note however, that when deleting a file oustide of what is accessible to a user, or when deleting a file in the root file system, elevated privileges are required. In order to remove a directory with the 'rm' command, either make sure it is empty or append the flag '-r' trailing 'rm', this will recursively delete the directory and its contents.
+
+Resources: 
+1. Man Pages
+2. Tldr Pages
+3. Roppers' Command Line Basics
+4. Wikipedia
+5. Command history (attached)
+
+Command history:
+   0 $HOME/.profile
+   1 whoami
+   2 pwd
+   3 ls -l
+   4 mkdir linuxPlayground
+   5 ls
+   6 cd linuxPlayground/
+   7 ls -l
+   8 cd ..
+   9 cd linuxPlayground/
+  10 echo Hello World!
+  11 echo Hello World! > file1.txt
+  12 ls
+  13 cat file1.txt
+  14 echo Goodbye! > file1.txt
+  15 cat file1.txt
+  16 echo Hello World! > file1.txt; echo Goodbye >> file1.txt;
+  17 cat file1.txt 
+  18 cp file1.txt file2.txt
+  19 ls
+  20 mkdir folder1
+  21 rm file1.txt 
+  22 ls -l
+  23 touch file2.txt 
+  24 ls -l
+  25 touch file3.txt
+  26 ls -l
+  27 mv file3.txt ./folder1/
+  28 cd folder1/
+  29 ls
+  30 rm folder/
+  31 pwd
+  32 cd ..
+  33 rm folder1/
+  34 rm -r folder1/
+  35 ls -l
+  36 history 
+
+Post Assignment Observation(s):
+
+1. '.' basically means this folder. Say a directory /home/user has 56 files (hidden files included). Given that user, is the only user account on the system, then '.' will have 56 hard links, and '..' will have only three.
+
+
+Feedback: 
+1. Coming up with the questions and answers to them wasn't difficult, however it felt somewhat deterring. I realized my short-comings here: it felt very uncomfortable - which means I probably learned something.
+2. An example question coupled with its answer could have helped point me down a certain school of thought.

@@ -1,0 +1,18 @@
+Questions:
+1. In your own words, describe what the command 'ls' does.
+2. Describe what the command 'cat' does.
+3. Describe what the command using 'gcc' does.
+4. Describe what the program ./hello did.
+
+Answers:
+1. The command 'ls' is short for list storage, like the name suggests, 'ls' lists the contents of the current working directory.
+2. The command 'cat' is short for concatenate, this command takes (a) given file(s) as a parameter and prints its contents.
+3. The command 'gcc' is used to compile c program code, where 'gcc' is the "GNU C Compiler."
+4. Running the program ./hello printed the text 'hello world' on the terminal.
+
+Resources: 
+1. Man Pages
+
+
+Feedback: 
+1. This lesson was a good refresher on the basics of shells.

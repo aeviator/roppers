@@ -1,0 +1,30 @@
+Questions:
+
+Write out what STDIN, STDOUT, and STDERR are and what they are doing for each of the commands:
+
+1. cat 
+2. tee 
+3. sort 
+4. uniq
+
+Answers:
+
+STDIN: captures key presses and redirects to the system or redirects output from another file to the system, and the next chained command in the pipeline, if any.
+
+STDOUT: returns output to the terminal for display or to the next chained command in the pipeline for further processing, if any.
+
+STDERR: used for returning errors, and is independent of STDOUT. Usually returns errors to the terminal for display, may however redirect to a file, a package manager's log file, for example.
+
+1. 
+2. 
+3. 
+4.  
+
+Resources: 
+1. Man Pages
+2. Tldr Pages
+3. Wikipedia
+
+
+Feedback: 
+*
